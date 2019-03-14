@@ -1,5 +1,37 @@
 {
-  "dependencies": {
-    "moment": "^2.24.0"
-  }
+    "name": "fitzjs",
+    "version": "0.0.1",
+    "description": "Return UTC time in ISO 8601",
+    "author": "Joe Fitz <joe@hqo.co> (http://hqo.co)",
+    "contributors": [
+        "Jeff Bachand <jeff@hqo.co> (http://hqo.co/)"
+    ],
+    "keywords": [
+        "moment",
+        "date",
+        "time",
+        "parse",
+        "format",
+        "validate",
+        "i18n",
+        "l10n",
+        "ender"
+    ],
+    "main": "./fitzjs.js",
+    "engines": {
+        "node": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jbachand/fitzjs.git"
+    },
+    "bugs": {
+        "url": "https://github.com/jbachand/fitzjs/issues"
+    },
+    "license": "MIT",
+    "devDependencies": {
+      "moment": "latest"
+    },
+    "scripts": {
+    }
 }
