@@ -1,5 +1,6 @@
-import moment;
+'use strict';
+const moment = require('moment');
 
-exports.fitzjs = (dateString) => {
-    return moment(dateString).toISOString();
-}
+module.exports = (dateString, dateFormat = undefined) => {
+    return moment(dateString, dateFormat).toISOString();
+};
