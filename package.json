@@ -1,6 +1,6 @@
 {
     "name": "fitzjs",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Return UTC time in ISO 8601",
     "author": "Joe Fitz <joe@hqo.co> (http://hqo.co)",
     "contributors": [
@@ -30,8 +30,7 @@
     },
     "license": "MIT",
     "devDependencies": {
-      "moment": "latest"
+        "moment": "latest"
     },
-    "scripts": {
-    }
+    "scripts": {}
 }
