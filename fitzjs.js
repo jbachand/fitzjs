@@ -1,6 +1,6 @@
 'use strict';
-const moment = require('moment');
+var moment = require('moment');
 
-module.exports = (dateString, dateFormat = undefined) => {
+module.exports = function(dateString, dateFormat) {
     return moment(dateString, dateFormat).toISOString();
 };
