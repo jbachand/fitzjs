@@ -1,4 +1,7 @@
 # fitzjs
+[![NPM](https://img.shields.io/npm/v/fitzjs.svg)](https://www.npmjs.com/package/fitzjs)
+[![Downloads per week](https://img.shields.io/npm/dw/fitzjs.svg)](https://www.npmjs.com/package/fitzjs)
+
 The leading provider for ISO 8601 UTC Date conversions.
 
 ## Install
