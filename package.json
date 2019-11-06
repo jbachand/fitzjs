@@ -30,7 +30,10 @@
     },
     "license": "MIT",
     "devDependencies": {
+        "jest": "24.9.0",
         "moment": "latest"
     },
-    "scripts": {}
+    "scripts": {
+        "fitzTest": "yarn jest"
+    }
 }
