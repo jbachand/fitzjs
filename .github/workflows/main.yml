@@ -28,5 +28,5 @@ jobs:
               
       # Test
       - name: Run a one-line script
-        run: yarn test
+        run: yarn fitzTest
 
